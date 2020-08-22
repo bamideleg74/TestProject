@@ -1,7 +1,7 @@
 
 @tag
 Feature: BrightTalk  Sample Tes
-   Search keyword paramerisation using scenario Outline.
+   Search keyword paramerisation.
 
   @tag1
   Scenario Outline: Paramerisation using scenario outline and Examples table

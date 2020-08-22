@@ -34,8 +34,8 @@ public class SearchKyewordDataDriven {
 		
 		driver.findElement(By.cssSelector("#for-developers > .p-ff-roboto-slab-bold")).getText();
 	    try  { 
-	    	String SearchResults = driver.findElement(By.cssSelector("#for-developers > .p-ff-roboto-slab-bold")).getText();
-	    	System.out.println(" The search result is " + SearchResults);
+	    	String SearchResult = driver.findElement(By.cssSelector("#for-developers > .p-ff-roboto-slab-bold")).getText();
+	    	System.out.println(" The search result is " + SearchResult);
 	    	System.out.println("Pass");
 	    }catch (Exception e ){
 	    	System.out.println("Object does not exists");

@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 				format= {"pretty","html:test-outout"}, 
 				monochrome = true, 
 				strict = true, 
-				dryRun = true 
+				dryRun = true // Checked
 
 				)
 
